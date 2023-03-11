@@ -16,3 +16,10 @@ img {
     display: block;
     margin: auto;
 }
+#motivation{
+    color: darkmagenta;
+}
+
+.howTo{
+    color:burlywood;
+}
