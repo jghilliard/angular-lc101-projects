@@ -8,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class ButtonsComponent implements OnInit {
    buttonHeading: string = "Buttons"
    inactive: boolean = false;
+   gold: boolean = true;
+   silver: boolean = true;
+   copper: boolean = true;
 
    constructor() { }
 
    ngOnInit() { }
+
+   resetButtons(){
+      this.gold = true;
+      this.copper = true;
+      this.silver = true;
+   }
 
 }
